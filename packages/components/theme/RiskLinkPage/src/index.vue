@@ -31,11 +31,7 @@ const confirmRedirect = () => {
     <div :class="[ns.e('header'), 'flx-align-center']">
       <img v-if="frontmatter.logo" :src="frontmatter.logo" alt="logo" />
       <p v-if="targetLink" :class="ns.e('title')">
-        {{
-          frontmatter.desc
-            ? frontmatter.desc
-            : t("tk.riskLink.title", { name: frontmatter.name || "VitePress Theme Teek" })
-        }}
+        {{ frontmatter.desc ? frontmatter.desc : t("tk.riskLink.title", { name: frontmatter.name || "字节时代" }) }}
       </p>
       <p v-else :class="ns.e('title')">
         {{ frontmatter.linkIllegal ? frontmatter.linkIllegal : t("tk.riskLink.linkIllegal") }}

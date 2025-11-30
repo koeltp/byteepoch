@@ -293,7 +293,7 @@ const handleBlur = (item: LoginFormItem, formName: "username" | "password" | "ve
       <div :class="ns.e('right')">
         <div :class="[ns.e('right__header'), 'flx-center']">
           <img v-if="frontmatter.logo" :src="frontmatter.logo" alt="logo" />
-          <span class="title">{{ frontmatter.name ?? "VitePress Theme Teek" }}</span>
+          <span class="title">{{ frontmatter.name ?? "字节时代" }}</span>
         </div>
 
         <form class="flx-space-y-20 login-form">

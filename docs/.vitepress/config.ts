@@ -8,15 +8,15 @@ import { version } from "../../packages/teek/version";
 // import { version } from "vitepress-theme-teek/es/version";
 
 const description = [
-  "欢迎来到 vitepress-theme-teek 使用文档",
-  "Teek 是一个基于 VitePress 构建的主题，是在默认主题的基础上进行拓展，支持 VitePress 的所有功能、配置",
-  "Teek 拥有三种典型的知识管理形态：结构化、碎片化、体系化，可以轻松构建一个结构化知识库，适用个人博客、文档站、知识库等场景",
+  "欢迎来到 字节时代（byteepoch.com），这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。",
+  "字节时代 致力于为开发者和科技爱好者提供高质量的教程、实用的工具和深入的技术分析，帮助你在快速变化的数字世界中保持领先。",
+  "无论你是初学者还是经验丰富的专业人士，字节时代 都有丰富的资源和社区支持，助你提升技能，拓展视野。人工智能、大数据、云计算、前端开发、后端技术等多领域内容应有尽有。",
 ].toString();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "Vitepress Theme Teek",
+  title: "字节时代",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
@@ -26,10 +26,10 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "Teek | Vitepress Theme Teek" }],
-    ["meta", { property: "og:site_name", content: "VitePress Theme Teek" }],
-    ["meta", { property: "og:image", content: "https://vp.teek.top/teek-logo-large.png" }],
-    ["meta", { property: "og:url", content: "https://vp.teek.top" }],
+    ["meta", { property: "og:title", content: "字节时代 | byteepoch.com" }],
+    ["meta", { property: "og:site_name", content: "字节时代" }],
+    ["meta", { property: "og:image", content: "https://www.byteepoch.com/teek-logo-large.png" }],
+    ["meta", { property: "og:url", content: "https://www.byteepoch.com" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
     ["meta", { name: "author", content: "Teeker" }],
@@ -68,7 +68,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://vp.teek.top",
+    hostname: "https://www.byteepoch.com",
     transformItems: items => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
@@ -128,7 +128,7 @@ export default defineConfig({
           { text: "归档页", link: "/archives" },
           { text: "清单页", link: "/articleOverview" },
           { text: "登录页", link: "/login" },
-          { text: "风险链接提示页", link: "/risk-link?target=https://vp.teek.top" },
+          { text: "风险链接提示页", link: "/risk-link?target=https://www.byteepoch.com" },
           { text: "分类页", link: "/categories" },
           { text: "标签页", link: "/tags" },
         ],

@@ -1,13 +1,11 @@
-<h1 align="center">vitepress-theme-teek</h1>
+<h1 align="center">字节时代博客</h1>
 
 <div align="center">
 
-[Github](https://github.com/Kele-Bingtang/vitepress-theme-teek) ｜ [Gitee](https://gitee.com/kele-bingtang/vitepress-theme-teek) ｜ [Preview](https://notes.teek.top/) ｜[Docs](http://vp.teek.top/)
-
+[Github](https://github.com/koeltp/byteepoch)  
 ✨ A lightweight, concise and efficient, flexibly configured, and easily extensible VitePress theme.
 
 </div>
-
 <p align="center">
   <a title="Github release" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/releases">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Kele-Bingtang/vitepress-theme-teek?logo=github">
@@ -33,18 +31,18 @@
 
 ## Teek Online Installation
 
-Please see [Quick Start](https://vp.teek.top/guide/quickstart).
+Please see [Quick Start](https://www.byteepoch.com/guide/quickstart).
 
 ## Contribution Guide
 
-Please see [Contribution Guide](https://vp.teek.top/guide/contribution).
+Please see [Contribution Guide](https://www.byteepoch.com/guide/contribution).
 
 ## Local Development
 
 Project cloning
 
 ```bash
-git clone https://github.com/Kele-Bingtang/vitepress-theme-teek.git
+git clone https://github.com/koeltp/byteepoch.git
 ```
 
 Dependencies installation (only pnpm can be used to install dependencies)
@@ -64,64 +62,6 @@ Start documentation project
 ```bash
 pnpm docs:dev
 ```
-
-## Effect Images
-
-Only some effect images are listed below. For more features, please visit [Official Documentation](https://vp.teek.top)
-
-### Document Homepage
-
-![](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807010539.png)
-
-### Banner Large Image
-
-![Banner 大图](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004931.png)
-
-### Banner Small Image
-
-![Banner 小图](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004833.png)
-
-### Full Background Image
-
-![全背景图](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004913.png)
-
-### Card Style
-
-![卡片风格](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004909.png)
-
-### Fragmented Article Page
-
-![碎片化文章页](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004839.png)
-
-### Catalog Page
-
-![目录页](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004926.png)
-
-### Archive Page
-
-![归档页](https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807004922.png)
-
-## 💖 Support This Project
-
-If you are using this project and feel it has helped you, or if you want to support my continued development, you can support me in any of the following ways:
-
-- Star and share [VitePress Theme Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek) 🚀
-- Sponsor through the QR codes below, and buy the author a cup of tea 🍵
-
-Thank you! ❤️
-
-|                                                            WeChat Appreciation                                                            |                                                              WeChat                                                               |                                                              Alipay                                                               |
-| :---------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807010102.jpg" alt="WeChat Sponsor QRcode" width=180> | <img src="https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807010104.jpg" alt="WeChat QRcode" width=180> | <img src="https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/vp-teek-cover/20250807010106.jpg" alt="Alipay QRcode" width=180> |
-
-Your sponsorship will help Teek:
-
-- Maintain project infrastructure
-- Invest more time in development
-- Provide better technical support
-- Develop more practical features
-
-QR codes not displaying properly? Click [here](https://vp.teek.top/personal.html) 😎
 
 ## Acknowledgements
 
