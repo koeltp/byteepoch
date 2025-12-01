@@ -21,10 +21,10 @@ const teekBlogCommonConfig: TeekConfig = {
   footerInfo: {
     customHtml: `<span id="runtime"></span>`, // 需要搭配 .vitepress/theme/helper/useRuntime.ts 使用
     topMessage: [
-      `<span><img alt="VitePress" src="https://liuyuyang.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fanimals.65eaf6e3.webp&w=750&q=75"><span/>`,
+      `<span><img src="./animals.png" style="width:750px" alt="字节时代"><span/>`,
 
-      `<a title="Github release" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/releases" style="margin-right: 10px;">
-        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Kele-Bingtang/vitepress-theme-teek?logo=github">
+      `<a title="Github release" target="_blank" href="https://github.com/koeltp/byteepoch/releases" style="margin-right: 10px;">
+        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/koeltp/byteepoch?logo=github">
       </a>
 
       <a title="Npm Version" target="_blank" href="https://www.npmjs.com/package/vitepress-theme-teek" style="margin-right: 10px;">
@@ -44,7 +44,7 @@ const teekBlogCommonConfig: TeekConfig = {
     ],
   },
   docAnalysis: {
-    createTime: "2025-03-23",
+    createTime: "2025-12-01",
     statistics: {
       provider: "busuanzi",
     },
@@ -52,75 +52,27 @@ const teekBlogCommonConfig: TeekConfig = {
   friendLink: {
     list: [
       {
-        name: "Teeker",
-        desc: "朝圣的使徒，正在走向编程的至高殿堂！",
+        name: "太皮导航",
+        desc: "简洁好用的导航网站大全，自定义你的专属导航页。",
         avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
-        link: "http://notes.teek.top/",
+        link: "https://nav.taipi.top/",
       },
       {
-        name: "vuepress-theme-vdoing",
-        desc: "🚀一款简洁高效的VuePress 知识管理&博客 主题",
+        name: "字节时代",
+        desc: "🚀 致力于打造高质量的技术分享平台。",
         avatar: "https://doc.xugaoyi.com/img/logo.png",
-        link: "https://doc.xugaoyi.com/",
-      },
-      {
-        name: "One",
-        desc: "明心静性，爱自己",
-        avatar: "https://onedayxyy.cn/img/xyy.webp",
-        link: "https://onedayxyy.cn/",
-      },
-      {
-        name: "Hyde Blog",
-        desc: "人心中的成见是一座大山",
-        avatar: "https://teek.seasir.top/avatar/avatar.webp",
-        link: "https://teek.seasir.top/",
-      },
-      {
-        name: "二丫讲梵",
-        desc: "💻学习📝记录🔗分享",
-        avatar: "https://wiki.eryajf.net/img/logo.png",
-        link: " https://wiki.eryajf.net/",
-      },
-      {
-        name: "粥里有勺糖",
-        desc: "简约风的 VitePress 博客主题",
-        avatar: "https://theme.sugarat.top/logo.png",
-        link: "https://theme.sugarat.top/",
-      },
-      {
-        name: "VitePress 快速上手中文教程",
-        desc: "如果你也想搭建它，那跟我一起做吧",
-        avatar: "https://avatars.githubusercontent.com/u/90893790?v=4",
-        link: "https://vitepress.yiov.top/",
-      },
-      {
-        name: "友人A",
-        desc: "おとといは兎をみたの，昨日は鹿，今日はあなた",
-        avatar: "http://niubin.site/logo.jpg",
-        link: "http://niubin.site/",
+        link: "https://www.byteepoch.com/",
       },
     ],
     autoScroll: true,
   },
-  social: [
-    {
-      icon: "icon-github",
-      name: "GitHub",
-      link: "https://github.com/kele-bingtang",
-    },
-    {
-      icon: "icon-gitee",
-      name: "Gitee",
-      link: "https://gitee.com/kele-bingtang",
-    },
-  ],
 };
 
 // 博客默认配置
 export const teekBlogConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 ByteEpoch 字节时代",
     description: "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
     bgStyle: "partImg",
   },
@@ -130,7 +82,7 @@ export const teekBlogConfig: TeekConfig = {
 export const teekBlogParkConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 ByteEpoch 字节时代",
     bgStyle: "partImg",
     imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
     description: [
@@ -140,23 +92,6 @@ export const teekBlogParkConfig: TeekConfig = {
     ],
     descStyle: "switch",
   },
-  footerGroup: [
-    {
-      title: "外部链接",
-      links: [
-        { name: "示例 1", link: "https://www.byteepoch.com" },
-        { name: "示例 2", link: "https://www.byteepoch.com" },
-        { name: "示例 3", link: "https://www.byteepoch.com" },
-      ],
-    },
-    {
-      title: "内部链接",
-      links: [
-        { name: "快速开始", link: "/guide/quickstart" },
-        { name: "配置简介", link: "/reference/config" },
-      ],
-    },
-  ],
 };
 
 // 博客大图配置
@@ -166,7 +101,7 @@ export const teekBlogFullConfig: TeekConfig = {
     coverImgMode: "full",
   },
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 ByteEpoch 字节时代",
     bgStyle: "fullImg",
     imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
     description: [
@@ -218,7 +153,7 @@ export const teekBlogBodyConfig: TeekConfig = {
     imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
   },
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 ByteEpoch 字节时代",
     description: [
       "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
       "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
@@ -241,7 +176,7 @@ export const teekBlogCardConfig: TeekConfig = {
   },
   homeCardListPosition: "left",
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 ByteEpoch 字节时代",
     bgStyle: "fullImg",
     imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
     description: [

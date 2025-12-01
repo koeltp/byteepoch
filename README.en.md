@@ -7,21 +7,17 @@
 
 </div>
 <p align="center">
-  <a title="Github release" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/releases">
-    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Kele-Bingtang/vitepress-theme-teek?logo=github">
+  <a title="Github release" target="_blank" href="https://github.com/koeltp/byteepoch/releases">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/koeltp/byteepoch?logo=github">
   </a>
-
   <a title="Npm Version" target="_blank" href="https://www.npmjs.com/package/vitepress-theme-teek">
     <img src="https://img.shields.io/npm/v/vitepress-theme-teek?logo=npm&color=%09%23bf00ff" alt="https://img.shields.io/npm/v/vitepress-theme-teek?color=%09%23bf00ff">
   </a>
-
   <img src="https://img.shields.io/badge/v18.x-x?logo=node.js&label=node" alt="node version">
-  <img src="https://img.shields.io/github/languages/code-size/Kele-Bingtang/vitepress-theme-teek?logo=Visual Studio Code&logoColor=blue" alt="GitHub code size in bytes">
-
-  <a title="GitHub Discussions" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/discussions">
-    <img src="https://img.shields.io/github/discussions/Kele-Bingtang/vitepress-theme-teek?color=9cf&logo=github" alt="GitHub Discussions">
+  <img src="https://img.shields.io/github/languages/code-size/koeltp/byteepoch?logo=Visual Studio Code&logoColor=blue" alt="GitHub code size in bytes">
+  <a title="GitHub Discussions" target="_blank" href="https://github.com/koeltp/byteepoch/discussions">
+    <img src="https://img.shields.io/github/discussions/koeltp/byteepoch?color=9cf&logo=github" alt="GitHub Discussions">
   </a>
-
   <a title="MIT License" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
   </a>
@@ -67,7 +63,7 @@ pnpm docs:dev
 
 ❤️ Thank you to friends who support this project. Your help makes this project better!
 
-❤️ Thank you to friends who contributed code to this project → [Contributors](https://github.com/Kele-Bingtang/vitepress-theme-teek/graphs/contributors)
+❤️ Thank you to friends who contributed code to this project → [Contributors](https://github.com/koeltp/byteepoch/graphs/contributors)
 
 ## License
 

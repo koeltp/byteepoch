@@ -89,8 +89,8 @@ export const teekConfig = defineTeekConfig({
   },
   // 文章默认的作者信息
   author: {
-    name: "Teeker", // 作者名称
-    link: "https://github.com/Kele-Bingtang", // 点击作者名称后跳转的链接
+    name: "羡鱼", // 作者名称
+    link: "https://github.com/koeltp", // 点击作者名称后跳转的链接
   },
   // 公告配置
   notice: {
@@ -114,7 +114,7 @@ export const teekConfig = defineTeekConfig({
   // 首页 Banner 配置，位于首页顶部
   banner: {
     enabled: true, // 是否启用 Banner
-    name: "Teek", // Banner 标题，默认读取 vitepress 的 title 属性
+    name: "ByteEpoch", // Banner 标题，默认读取 vitepress 的 title 属性
     bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
     pureBgColor: "#28282d", // Banner 背景色，bgStyle 为 pure 时生效
     imgSrc: ["/img/bg1.jpg", "/img/bg2.png"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
@@ -185,7 +185,7 @@ export const teekConfig = defineTeekConfig({
   ],
   // 博主信息，显示在首页左边第一个卡片。
   blogger: {
-    name: "天客", // 博主昵称
+    name: "羡鱼", // 博主昵称
     slogan: "朝圣的使徒，正在走向编程的至高殿堂！", // 博主签名
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png", // 博主头像
     shape: "circle-rotate", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
@@ -239,10 +239,10 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用友情链接卡片
     list: [
       {
-        name: "Teeker",
-        desc: "朝圣的使徒，正在走向编程的至高殿堂！",
+        name: "太皮导航",
+        desc: "太皮导航，太皮的专用导航网站，简洁好用的导航网站大全，自定义你的专属导航页。",
         avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
-        link: "http://notes.teek.top/",
+        link: "http://nav.taipi.top/",
       },
     ], // 友情链接数据列表
     title: "${icon}友情链接", // 卡片标题
@@ -256,7 +256,7 @@ export const teekConfig = defineTeekConfig({
   // 站点信息卡片配置
   docAnalysis: {
     enabled: true, // 是否启用站点信息卡片
-    createTime: "2021-10-19", // 站点创建时间
+    createTime: "2025-12-01", // 站点创建时间
     wordCount: true, // 是否开启文章页的字数统计
     readingTime: true, // 是否开启文章页的阅读时长统计
     // 访问量、访客数统计配置
@@ -286,12 +286,12 @@ export const teekConfig = defineTeekConfig({
     {
       icon: "mdi:github",
       name: "GitHub",
-      link: "https://github.com/kele-bingtang",
+      link: "https://github.com/keltp",
     },
     {
       icon: "simple-icons:gitee",
       name: "Gitee",
-      link: "https://gitee.com/kele-bingtang",
+      link: "https://gitee.com/koeltp",
     },
   ],
   // 页脚信息组配置
@@ -321,14 +321,14 @@ export const teekConfig = defineTeekConfig({
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权，建议显示
-      name: "", // 自定义名称
-      link: "", // 自定义链接
+      name: "ByteEpoch", // 自定义名称
+      link: "https://www.byteepoch.com", // 自定义链接
     },
     // 博客版权配置
     copyright: {
       show: true, // 是否显示博客版权
-      createYear: 2021, // 创建年份
-      suffix: "天客 Blog", // 后缀
+      createYear: 2025, // 创建年份
+      suffix: "字节时代", // 后缀
     },
     // ICP 备案信息配置
     icpRecord: {
@@ -382,7 +382,7 @@ export const teekConfig = defineTeekConfig({
       icon: "weChatPay", // 赞赏图标，内置 weChatPay 和 alipay
       expandTitle: "打赏支持", // 展开标题，支持 HTML
       collapseTitle: "下次一定", // 折叠标题，支持 HTML
-      content: `<img src='/teek-logo-large.png'>`, // 赞赏内容，支持 HTML
+      content: `<img src='/logo.png'>`, // 赞赏内容，支持 HTML
       expand: false, // 是否默认展开，默认 false
     },
   },

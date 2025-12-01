@@ -9,16 +9,16 @@ articleBanner: false
 
 如果您正在使用这个项目并感觉这个项目给你带来帮助，或者是想支持我继续开发，您可以通过如下任意方式支持我：
 
-- Star 并分享 [字节时代](https://github.com/Kele-Bingtang/vitepress-theme-teek) 🚀
+- Star 并分享 [字节时代](https://github.com/koeltp/byteepoch) 🚀
 - 通过以下二维码进行赞助，打赏作者一杯茶 🍵
 
 谢谢！❤️
 
 |                                   微信赞赏                                   |                               微信                               |                            支付宝                            |
 | :--------------------------------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="/qrcode/wechat-sponsor.jpg" alt="WeChat Sponsor QRcode" width=180> | <img src="/qrcode/wechat-pay.jpg" alt="WeChat QRcode" width=180> | <img src="/qrcode/alipay.jpg" alt="Alipay QRcode" width=180> |
+| <img src="/qrcode/wechat-sponsor.jpg" alt="WeChat Sponsor QRcode" width=180> | <img src="/qrcode/wechat-pay.png" alt="WeChat QRcode" width=180> | <img src="/qrcode/alipay.png" alt="Alipay QRcode" width=180> |
 
-您的赞助将帮助 Teek：
+您的赞助将帮助 字节时代：
 
 - 维护项目的基础设施
 - 投入更多时间进行开发
@@ -29,13 +29,13 @@ articleBanner: false
 
 ❤️ 感谢支持这个项目的朋友，您的每一份帮助都让这个项目变得更好！
 
-❤️ 感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/Kele-Bingtang/vitepress-theme-teek/graphs/contributors)
+❤️ 感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/koeltp/byteepoch/graphs/contributors)
 
 ## 赞助者名单
 
 感谢以下赞助者对项目的支持。
 
-Teek 会定期对赞助者名单更新，如果您已赞助但没有在名单中显示，请通过 Issue 或微信联系 Teek。（赞助金额至少达到 `￥9.9`）
+字节时代 会定期对赞助者名单更新，如果您已赞助但没有在名单中显示，请通过 Issue 或微信联系 字节时代。（赞助金额至少达到 `￥9.9`）
 
 赞助时可以备注如下内容：
 
@@ -44,17 +44,8 @@ Teek 会定期对赞助者名单更新，如果您已赞助但没有在名单中
 - 不添加到赞助者名单
 - 金额打码，比如 `50+`，`5*`
 
-| 赞助者     | 金额￥ | 日期       | 网址                               |
-| ---------- | ------ | ---------- | ---------------------------------- |
-| 上官羽     | 59     | 2025-11-11 | [w3c](https://w3c.cool/)           |
-| 。。。。。 | 10     | 2025-10-27 |                                    |
-| One        | 20     | 2025-09-10 | [One 博客](https://onedayxyy.cn)   |
-| champ      | 50     | 2025-08-31 |                                    |
-| 一云风一   | 50     | 2025-08-07 |                                    |
-| Alowree    | 100    | 2025-08-07 | [Alowree](https://marapython.com)  |
-| hubbub     | 10     | 2025-09-03 |                                    |
-| 二丫讲梵   | 20     | 2025-08-07 | [二丫讲梵博客](https://eryajf.net) |
-| 时光       | 10     | 2025-08-07 | [时光](https://notes.ksah.cn)      |
+| 赞助者 | 金额￥ | 日期 | 网址 |
+| ------ | ------ | ---- | ---- |
 
 <style scoped>
 .vp-doc table:focus-visible {

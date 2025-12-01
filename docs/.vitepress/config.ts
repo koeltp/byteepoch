@@ -31,7 +31,7 @@ export default defineConfig({
     ["meta", { property: "og:url", content: "https://www.byteepoch.com" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
-    ["meta", { name: "author", content: "Teeker" }],
+    ["meta", { name: "author", content: "羡鱼" }],
     // 禁止浏览器缩放
     // [
     //   "meta",
@@ -81,7 +81,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/teek-logo-mini.svg",
+    logo: "./logo.png",
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
@@ -136,12 +136,12 @@ export default defineConfig({
       {
         text: version,
         items: [
-          { text: "历史版本", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/releases" },
-          { text: "更新日志", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/dev/CHANGELOG.md" },
+          { text: "历史版本", link: "https://github.com/koeltp/byteepoch/releases" },
+          { text: "更新日志", link: "https://github.com/koeltp/byteepoch/blob/main/CHANGELOG.md" },
         ],
       },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/koeltp/byteepoch" }],
     search: {
       provider: "algolia",
       options: {
@@ -152,7 +152,7 @@ export default defineConfig({
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern: "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+      pattern: "https://github.com/koeltp/byteepoch/edit/main/docs/:path",
     },
   },
   vite: {

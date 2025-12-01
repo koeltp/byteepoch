@@ -8,9 +8,9 @@ import { version } from "../../packages/teek/version";
 
 export const teekConfig = defineTeekConfig({
   sidebarTrigger: true,
-  author: { name: "Teeker", link: "https://github.com/Kele-Bingtang" },
+  author: { name: "Teeker", link: "https://github.com/koeltp" },
   blogger: {
-    name: "天客",
+    name: "羡鱼",
     slogan: "朝圣的使徒，正在走向编程的至高殿堂！",
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
     shape: "circle-rotate",
@@ -29,7 +29,7 @@ export const teekConfig = defineTeekConfig({
     },
     copyright: {
       createYear: 2025,
-      suffix: "Teek",
+      suffix: "ByteEpoch | 字节时代",
     },
   },
   codeBlock: {
@@ -50,7 +50,7 @@ export const teekConfig = defineTeekConfig({
   },
   markdown: {
     demo: {
-      githubUrl: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/docs",
+      githubUrl: "https://github.com/koeltp/byteepoch/blob/master/docs",
     },
   },
   siteAnalytics: [
