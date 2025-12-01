@@ -8,7 +8,7 @@ import { version } from "../../packages/teek/version";
 
 export const teekConfig = defineTeekConfig({
   sidebarTrigger: true,
-  author: { name: "Teeker", link: "https://github.com/koeltp" },
+  author: { name: "羡鱼", link: "https://github.com/koeltp" },
   blogger: {
     name: "羡鱼",
     slogan: "朝圣的使徒，正在走向编程的至高殿堂！",
@@ -23,6 +23,7 @@ export const teekConfig = defineTeekConfig({
       title: "困",
     },
   },
+
   footerInfo: {
     theme: {
       name: `Theme By Teek@${version}`,

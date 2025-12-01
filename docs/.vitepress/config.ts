@@ -102,7 +102,14 @@ export default defineConfig({
         activeMatch: "/01.指南/",
       },
       { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
-      { text: "开发", link: "/develop/intro", activeMatch: "/15.主题开发/" },
+      {
+        text: "开发",
+        items: [
+          { text: "开发思路", link: "/develop/intro" },
+          { text: "Python", link: "/develop/python/start" },
+          { text: "C#", link: "/develop/csharp/start" },
+        ],
+      },
       {
         text: "资源",
         items: [
