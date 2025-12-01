@@ -5,50 +5,34 @@ tk:
   teekHome: false
 
 hero:
-  name: Teek
-  text: VitePress 主题
-  tagline: ✨一个轻量、简洁高效、灵活配置，易于扩展的 VitePress 主题
-  actions:
-    - theme: brand
-      text: 开始
-      link: /guide/quickstart
-    - theme: alt
-      text: 配置
-      link: /reference/config
+  name: ByteEpoch
+  text: 字节时代
+  tagline: ✨欢迎来到 字节时代（byteepoch.com），这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。
+
   image:
-    src: /teek-logo-large.png
-    alt: Teek
+    src: ./logo.png
+    alt: ByteEpoch
 
 features:
   - icon: 📖
     title: 结构化 && 体系化
-    details: 自动生成侧边栏、目录页、索引页、面包屑等，轻松构建一个结构化知识库。
+    details: 知识以结构化、体系化的形式进行组织，支持多维度索引和关联，帮助用户高效获取所需信息。
   - icon: 🎉
     title: 碎片化 & 个性化
-    details: 提供快速构建知识的碎片化形态，并提供大量个性化的主题配置。
+    details: 字节时代注重碎片化知识的积累与分享，支持个性化的主题配置，满足不同用户的需求。
   - icon: 🎇
     title: 文档风 & 博客风
-    details: 支持通过配置搭配出各种风格，支持个人博客、文档站、知识库等场景。
+    details: 本博客支持文档风格和博客风格两种展示形式，用户可以根据需求选择合适的风格。
   - icon: 📝
     title: 专注内容
-    details: 只需 Markdown 即可轻松创建美观的文档站点，配合多维索引快速定位每个知识点。
+    details: 专注于内容的深度和质量，确保每个知识点都经过精心打磨和验证。
 ---
 
 ## 风格切换
 
-Teek 可以通过配置搭配出各种风格，而当前文档站默认仅演示较简约的文档风格。
+ByteEpoch 可以通过配置搭配出各种风格，而当前文档站默认仅演示较简约的文档风格。
 
-在右上角 <TkIcon :icon="readingIcon" :size="20" /> 图标的 <mark>配置切换</mark> 区域可以切换其他风格。因为配置较多，很多的功能并没有完全演示，需要安装 Teek，然后自行探索出自己喜欢的风格。
-
-## 💡 反馈交流
-
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/Kele-Bingtang/vitepress-theme-teek/issues)。 你也可以在 Issue 查看别人提的问题和解决方案。
-
-或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
-
-<img src="https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/index/20250412000919.png" alt="添加我微信备注「进群」" style="width: 180px;" />
-
-如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `teekers` 来添加我的微信。
+在右上角 <TkIcon :icon="readingIcon" :size="20" /> 图标的 <mark>配置切换</mark> 区域可以切换其他风格。
 
 <script setup lang="ts">
 import { onMounted } from "vue";

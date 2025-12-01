@@ -22,13 +22,12 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" }],
-    ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
+    ["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
     ["meta", { property: "og:title", content: "字节时代 | byteepoch.com" }],
     ["meta", { property: "og:site_name", content: "字节时代" }],
-    ["meta", { property: "og:image", content: "https://www.byteepoch.com/teek-logo-large.png" }],
+    ["meta", { property: "og:image", content: "https://www.byteepoch.com/logo.png" }],
     ["meta", { property: "og:url", content: "https://www.byteepoch.com" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
@@ -42,13 +41,13 @@ export default defineConfig({
     //   },
     // ],
     ["meta", { name: "keywords", description }],
-    ["meta", { name: "baidu-site-verification", content: "codeva-GdK2q9MO1i" }], // 百度收录
-    ["meta", { name: "msvalidate.01", content: "48CABE70F538B8D117567176ABF325AF" }], // Bing 收录验证
+    ["meta", { name: "baidu-site-verification", content: "codeva-EJK2ZlUSHF" }], // 百度收录
+    ["meta", { name: "msvalidate.01", content: "6C858769B1E5DEC0CA0EFC3E91B3D15B" }], // Bing 收录验证
     ["script", { charset: "UTF-8", id: "LA_COLLECT", src: "//sdk.51.la/js-sdk-pro.min.js" }], // 51.la
     [
       "script",
       {},
-      `typeof LA !== 'undefined' && LA.init({ id: "3LqfP8Icg0GeEvtn", ck: "3LqfP8Icg0GeEvtn", hashMode: true })`,
+      `typeof LA !== 'undefined' && LA.init({ id: "3OExoINIfHNjbGtX", ck: "3OExoINIfHNjbGtX", hashMode: true })`,
     ], // 51.la
   ],
   markdown: {
