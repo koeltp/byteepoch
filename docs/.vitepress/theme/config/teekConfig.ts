@@ -40,7 +40,10 @@ const teekBlogCommonConfig: TeekConfig = {
 
       <a title="MIT License" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/LICENSE" style="margin-right: 10px;">
         <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
-      </a>`,
+      </a>
+      
+      
+      `,
       `
       <div style="display: flex;align-items: center;justify-content: flex-start;gap: 15px;padding: 10px;">
         <a href="https://www.snzy.cn/website/2025120122000092.html" title="太皮计算器小程序的十年之约" target="_blank" style="display: inline-block;">
@@ -49,6 +52,7 @@ const teekBlogCommonConfig: TeekConfig = {
         <a href="https://www.snzy.cn/certificate/zhengshu-2025120122000092.html" title="太皮计算器小程序正在履约中" target="_blank" style="display: inline-block;">
           <img src="https://www.snzy.cn/images/snzylyzs.png" alt="太皮计算器小程序正在履约中" style="height:36px; display:block;">
         </a>
+       <a href="https://icp.ekucat.com/beian/2025120000.html" title="KUCAT盟2025120000号" target="_blank">KUCAT盟2025120000号</a>
       </div>
       `,
     ],
