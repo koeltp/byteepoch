@@ -58,13 +58,13 @@ export const teekConfig = defineTeekConfig({
     {
       provider: "baidu",
       options: {
-        id: "d5ee872d9aa1ef8021f4a3921b2e9c2a",
+        id: "1af05b9f81e820175b542c0e0b0b8957",
       },
     },
     {
       provider: "google",
       options: {
-        id: "G-K5GNDW3L7K",
+        id: "G-G0L575LB4N",
       },
     },
   ],
