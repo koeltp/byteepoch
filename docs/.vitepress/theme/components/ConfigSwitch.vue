@@ -43,9 +43,9 @@ const emit = defineEmits<{
 }>();
 
 // 默认文档风格
-const themeStyle = defineModel({ default: "doc" });
-const currentStyle = useStorage("tk:configStyle", "doc");
-const teekConfig = ref(teekDocConfig);
+const themeStyle = defineModel({ default: "blog-part" });
+const currentStyle = useStorage("tk:configStyle", "blog-part");
+const teekConfig = ref(teekBlogParkConfig);
 
 const { copy, copied } = useClipboard();
 const { isMobile } = useCommon();

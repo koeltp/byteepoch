@@ -104,11 +104,8 @@ export default defineConfig({
       { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
       {
         text: "开发",
-        items: [
-          { text: "开发思路", link: "/develop/intro" },
-          { text: "Python", link: "/develop/python/start" },
-          { text: "C#", link: "/develop/csharp/start" },
-        ],
+        link: "/develop/ai/langgraph/overview",
+        activeMatch: "/15.开发/",
       },
       {
         text: "资源",

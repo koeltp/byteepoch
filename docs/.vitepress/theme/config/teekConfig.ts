@@ -41,8 +41,6 @@ const teekBlogCommonConfig: TeekConfig = {
       <a title="MIT License" target="_blank" href="https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/LICENSE" style="margin-right: 10px;">
         <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
       </a>
-      
-      
       `,
       `
       <div style="display: flex;align-items: center;justify-content: flex-start;gap: 15px;padding: 10px;">
