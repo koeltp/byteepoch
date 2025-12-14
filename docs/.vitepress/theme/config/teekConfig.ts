@@ -42,17 +42,6 @@ const teekBlogCommonConfig: TeekConfig = {
         <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
       </a>
       `,
-      `
-      <div style="display: flex;align-items: center;justify-content: flex-start;gap: 15px;padding: 10px;">
-        <a href="https://www.snzy.cn/website/2025120122000092.html" title="太皮计算器小程序的十年之约" target="_blank" style="display: inline-block;">
-          <img style="width:100px;height:36px; display:block;" src="https://www.snzy.cn/images/snzylogo.png" alt="太皮计算器小程序十年之约">
-        </a>
-        <a href="https://www.snzy.cn/certificate/zhengshu-2025120122000092.html" title="太皮计算器小程序正在履约中" target="_blank" style="display: inline-block;">
-          <img src="https://www.snzy.cn/images/snzylyzs.png" alt="太皮计算器小程序正在履约中" style="height:36px; display:block;">
-        </a>
-       <a href="https://icp.ekucat.com/beian/2025120000.html" title="KUCAT盟2025120000号" target="_blank">KUCAT盟2025120000号</a>
-      </div>
-      `,
     ],
   },
   docAnalysis: {
