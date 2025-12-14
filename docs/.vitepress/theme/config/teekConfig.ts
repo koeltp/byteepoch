@@ -48,6 +48,8 @@ const teekBlogCommonConfig: TeekConfig = {
     createTime: "2025-12-01",
     statistics: {
       provider: "busuanzi",
+      siteView: false, // 是否开启首页的访问量和排名统计
+      pageView: false, // 是否开启文章页的浏览量统计
     },
   },
   friendLink: {

@@ -337,7 +337,7 @@ export const teekConfig = defineTeekConfig({
     },
     // 网络安全备案信息配置
     securityRecord: {
-      name: "",
+      name: "字节时代",
       link: "",
     },
   },

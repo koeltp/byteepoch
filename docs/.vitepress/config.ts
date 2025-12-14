@@ -96,17 +96,7 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      {
-        text: "指南",
-        link: "/guide/intro",
-        activeMatch: "/01.指南/",
-      },
-      { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
-      {
-        text: "开发",
-        link: "/develop/ai/langgraph/overview",
-        activeMatch: "/15.开发/",
-      },
+      { text: "开发", link: "/develop/ai/langgraph/overview", activeMatch: "/15.开发/" },
       {
         text: "功能页",
         items: [
