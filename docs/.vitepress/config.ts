@@ -108,24 +108,6 @@ export default defineConfig({
         activeMatch: "/15.开发/",
       },
       {
-        text: "资源",
-        items: [
-          { text: "案例", link: "/resources/case" },
-          { text: "常见问题", link: "/resources/qa" },
-          { text: "功能拓展", link: "/resources/expand/intro" },
-        ],
-      },
-      {
-        text: "生态",
-        items: [
-          { text: "Components 组件", link: "/ecosystem/components" },
-          { text: "运行时 API", link: "/ecosystem/runtime-api" },
-          { text: "Helper 工具", link: "/ecosystem/helper" },
-          { text: "Composables 函数", link: "/ecosystem/composables" },
-          { text: "Markdown 插件工具", link: "/ecosystem/md-plugin-utils" },
-        ],
-      },
-      {
         text: "功能页",
         items: [
           { text: "归档页", link: "/archives" },
