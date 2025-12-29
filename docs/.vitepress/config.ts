@@ -8,7 +8,7 @@ import { version } from "../../packages/teek/version";
 // import { version } from "vitepress-theme-teek/es/version";
 
 const description = [
-  "欢迎来到 字节时代（byteepoch.com），这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。",
+  "欢迎来到 字节时代 (byteepoch.com)，这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。",
   "字节时代 致力于为开发者和科技爱好者提供高质量的教程、实用的工具和深入的技术分析，帮助你在快速变化的数字世界中保持领先。",
   "无论你是初学者还是经验丰富的专业人士，字节时代 都有丰富的资源和社区支持，助你提升技能，拓展视野。人工智能、大数据、云计算、前端开发、后端技术等多领域内容应有尽有。",
 ].toString();

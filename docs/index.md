@@ -7,7 +7,7 @@ tk:
 hero:
   name: ByteEpoch
   text: 字节时代
-  tagline: ✨欢迎来到 字节时代（byteepoch.com），这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。
+  tagline: ✨欢迎来到 字节时代 (byteepoch.com)，这是一个专注于编程技术、前沿科技和数字生活的知识分享平台。
 
   image:
     src: ./logo.png
